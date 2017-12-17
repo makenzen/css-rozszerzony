@@ -1,0 +1,43 @@
+.box {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+/*  margin: ileśtampx auto sprawia, że kwadraty ustawiają się pośrodku okna przeglądarki i czerwony rozszerza się równomiernie z obu stron  */
+}
+.box.box1 {
+    background-color: red;
+    transition:width 2s ease-in;
+    -webkit-transition:width: 2s ease-in;
+    -moz-transition:width: 2s ease-in;
+    -o-transition:width: 2s ease-in;
+}
+
+.box.box1:hover {
+width: 300px;
+}
+
+.box.box2 {
+    background-color: blue;
+    transition:height 2s ease-in;
+    -webkit-transition:height: 2s ease-in;
+    -moz-transition:height: 2s ease-in;
+    -o-transition:height: 2s ease-in;
+}
+
+.box.box2:hover {
+height: 300px;
+}
+
+.box.box3 {
+    background-color: yellow;
+    transition:height 2s ease-in,width 2s ease-in;
+    -webkit-transition:height 2s ease-in,width 2s ease-in;
+    -moz-transition:height 2s ease-in,width 2s ease-in;
+    -o-transition:height 2s ease-in,width 2s ease-in;
+}
+
+.box.box3:hover {
+height: 300px;
+width: 300px;
+}

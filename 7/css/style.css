@@ -1,0 +1,9 @@
+#tlo-obrazek {
+    background-color: beige;
+    background-image: url("../pliki/Frytka.jpg");
+    background-repeat: repeat-x;
+/*        gdy chcemy by tło się nie powtarzało */
+    background-position: top center;
+    background-size: 30% 30%;
+    background-attachment: fixed;
+}

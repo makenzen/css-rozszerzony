@@ -1,0 +1,16 @@
+img.port {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img.port2 {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p:last-child {
+    background-color: aquamarine;
+    clear: both;
+}

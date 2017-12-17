@@ -1,0 +1,50 @@
+.elementy-blokowe .p1 {
+    background-color:aqua
+}
+
+.elementy-blokowe .p2 {
+    background-color:aquamarine;
+}
+
+.elementy-liniowe .inline-p1 {
+   background-color:green; 
+}
+
+.elementy-liniowe .inline-p2 {
+    background-color:bisque;
+}
+.elementy-liniowe p {
+    display: inline;
+}
+
+/* Możemy też zrobić tak: 
+.elementy-liniowe .inline-p1
+.elementy-liniowe .inline-p2 */
+
+.elementy-inline-block li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 1px;
+/* Elementy od siebie oddzielamy marginem, nie paddingiem! */
+    border: 2px solid blue;
+}
+
+.element-display-none {
+    display:none;
+}
+
+.elementy-inline-block .sp2 {
+    display:none;
+}
+
+.elementy-inline-block li:hover .sp1 {
+/* takie li, które ma w środku sp1 */
+    display: none;
+}
+
+.elementy-inline-block li:hover .sp2 {
+    display: inline;
+    background-color: red;
+}

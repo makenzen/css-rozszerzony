@@ -1,0 +1,14 @@
+img.port {
+    background-image: url("/5/img/daj-przepis.jpg");
+    display: block;
+    transition: background-image 3s easy-n 2s;
+}
+
+img.port:hover {
+    background-image: url("/5/img/Bonisia.jpg");
+}
+
+
+img.port2 {
+  background-image: url("/5/img/Bonisia.jpg");  
+}
